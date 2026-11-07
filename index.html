@@ -26,10 +26,10 @@
     <nav aria-label="Primary">
       <ul class="nav__links">
         <li><a href="#work">Work</a></li>
-        <li><a href="#writing">Writing</a></li>
-        <li><a href="#photos">Photos</a></li>
-        <li><a href="#leadership">Leadership</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#writing">Writing</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -54,12 +54,9 @@
       </div>
       <p class="hero__avail"><span class="dot" aria-hidden="true"></span>Seeking Summer 2027 internships in product, UX, business analysis or cybersecurity · available May 17 – Aug 12, 2027 · open to relocating</p>
     </div>
-    <div class="hero__bubbles" aria-hidden="true">
-      <div class="bubble bubble--1 bubble--photo"><img src="assets/photos/sf-conductor.jpg" alt=""></div>
-      <div class="bubble bubble--2 bubble--photo"><img src="assets/photos/wr-pinkout.jpg" style="object-position:50% 40%" alt=""></div>
-      <div class="bubble bubble--3 bubble--photo"><img src="assets/photos/wr-basketball-women.jpg" alt=""></div>
-      <a class="hero__credit" href="#photos">Photos by me ↓</a>
-    </div>
+    <figure class="hero__portrait">
+      <img src="assets/photos/ojashwi-headshot.jpg" alt="Portrait of Ojashwi Shrestha" width="600" height="600">
+    </figure>
   </div>
 </section>
 
@@ -166,33 +163,83 @@
   </div>
 </section>
 
-<!-- WRITING -->
-<section class="section section--navy" id="writing">
+<!-- ABOUT -->
+<section class="section section--tint" id="about">
+  <div class="container about">
+    <div>
+      <header class="section__head">
+        <span class="section__num">02</span>
+        <h2 class="section__title">About</h2>
+      </header>
+      <p class="about__lede">I'm a Computer Information Sciences student at Washburn University in Topeka, Kansas, graduating in May 2028. I like work where technology meets people: building tools, explaining them clearly, and getting them in front of an audience.</p>
+      <p>Outside class I work in Washburn Law Admissions, tutor through TRIO Student Support Services, and help the Sunflower Music Festival as a student assistant and photographer. I speak English and Nepali fluently and Hindi at an intermediate level.</p>
+    </div>
+    <div class="about__side">
+      <div class="skillset">
+        <h3 class="skillset__h">Programming</h3>
+        <p class="chips"><span>Java</span><span>Python</span><span>C++</span><span>HTML/CSS</span><span>JavaScript</span><span>Bash</span></p>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__h">Tools & systems</h3>
+        <p class="chips"><span>Git/GitHub</span><span>VS Code</span><span>PowerShell</span><span>Linux</span><span>Windows</span></p>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__h">Design & productivity</h3>
+        <p class="chips"><span>Figma</span><span>Canva</span><span>Adobe Creative Cloud</span><span>Microsoft Office</span><span>Google Workspace</span></p>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__h">Experience</h3>
+        <ul class="timeline">
+          <li><b>Washburn Law Admissions</b> Student Office Assistant · Aug 2026 – Present</li>
+          <li><b>TRIO Student Support Services</b> Peer Tutor · Sep 2026 – Present</li>
+          <li><b>Sunflower Music Festival</b> Student Assistant / Photographer · Feb 2025 – Present</li>
+          <li><b>Washburn Student Media</b> Sports Managing Editor & Associate Marketing Manager · Oct 2024 – Aug 2026</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="section" id="leadership">
   <div class="container">
     <header class="section__head">
-      <span class="section__num">02</span>
-      <h2 class="section__title">Writing & reporting</h2>
+      <span class="section__num">03</span>
+      <h2 class="section__title">Leadership</h2>
     </header>
-    <p class="section__intro">At the Washburn Review I started as a content creator and became Sports Managing Editor, writing features, sports and campus news and shooting photo galleries.</p>
-    <ul class="articles">
-      <li><a class="article" href="https://washburnreview.org/58080/features/ncaa-transfer-portal-transforms-recruitment-at-washburn/" target="_blank" rel="noopener"><span class="article__cat">Sports · Apr 29, 2026</span><span class="article__title">NCAA transfer portal transforms recruitment at Washburn</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
-      <li><a class="article" href="https://washburnreview.org/57207/features/matthew-nyquists-journey-from-usc-to-inspiring-students/" target="_blank" rel="noopener"><span class="article__cat">Profile · Mar 11, 2026</span><span class="article__title">Matthew Nyquist's journey from USC to inspiring students</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
-      <li><a class="article" href="https://washburnreview.org/55294/event/networking-and-opportunities-abound-at-washburn-career-internship-expo/" target="_blank" rel="noopener"><span class="article__cat">Campus events · Sep 17, 2025</span><span class="article__title">Networking and opportunities abound at Washburn Career & Internship Expo</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
-      <li><a class="article" href="https://washburnreview.org/54978/features/sunflower-music-festival-voices-from-the-stage-and-behind-the-scenes/" target="_blank" rel="noopener"><span class="article__cat">Features</span><span class="article__title">Sunflower Music Festival: voices from the stage and behind the scenes</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
-      <li><a class="article" href="https://washburnreview.org/52979/sports/gallery-mens-basketball-cruises-past-unk-97-64/" target="_blank" rel="noopener"><span class="article__cat">Photo gallery · Feb 5, 2025</span><span class="article__title">Gallery: Men's basketball cruises past UNK, 97-64</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
-    </ul>
-    <a class="btn btn--gold" href="https://washburnreview.org/staff_name/ojashwi-shrestha/" target="_blank" rel="noopener">All my stories on the Washburn Review</a>
+    <div class="lead-grid">
+      <article class="lead lead--feature">
+        <p class="tag">May 2026 – Present</p>
+        <h3 class="lead__title">President, Girls Who Code College Loop</h3>
+        <ul class="ticks">
+          <li>Hosted a Kahoot trivia night with 12 attendees and prizes like merch and gift cards.</li>
+          <li>Co-hosted a tech-themed Halloween escape room with ByteBods, another campus club.</li>
+          <li>Promoted events with Canva graphics, tabling, member emails, flyers and social media, and surveyed attendees on outreach.</li>
+          <li>Led the club to volunteer at Women in STEM Day and place 2nd in Homecoming top-hat decorating.</li>
+        </ul>
+      </article>
+      <article class="lead">
+        <p class="tag">Jun 2026 – Present</p>
+        <h3 class="lead__title">Leadership Peer Educator</h3>
+        <p class="lead__sub">LE 100: Exploring the Concept of Leadership</p>
+        <p>Created and presented a Canva slideshow on the leadership autobiography assignment, and help students in class and during peer educator hours.</p>
+      </article>
+      <article class="lead">
+        <p class="tag">Aug 2024 – Jun 2025</p>
+        <h3 class="lead__title">Secretary, International Club</h3>
+        <p>Took minutes at every meeting, attended all meetings and events, and helped officers decide on event plans.</p>
+      </article>
+    </div>
   </div>
 </section>
 
 <!-- PHOTOGRAPHY -->
-<section class="section" id="photos">
+<section class="section section--tint" id="photos">
   <div class="container">
     <header class="section__head">
-      <span class="section__num">03</span>
+      <span class="section__num">04</span>
       <h2 class="section__title">Through my lens</h2>
     </header>
-    <p class="section__intro">I shoot sports and campus galleries for the Washburn Review, with 160+ published photos credited to me, and I photograph the Sunflower Music Festival as a student assistant. I also make graphics, photos and video for Student Media and Girls Who Code on Instagram.</p>
 
     <h3 class="case__h">Sunflower Music Festival</h3>
     <div class="shots">
@@ -240,76 +287,22 @@
   </div>
 </section>
 
-<!-- LEADERSHIP -->
-<section class="section" id="leadership">
+<!-- WRITING -->
+<section class="section section--writing" id="writing">
   <div class="container">
     <header class="section__head">
-      <span class="section__num">04</span>
-      <h2 class="section__title">Leadership</h2>
+      <span class="section__num">05</span>
+      <h2 class="section__title">Writing & reporting</h2>
     </header>
-    <div class="lead-grid">
-      <article class="lead lead--feature">
-        <p class="tag">May 2026 – Present</p>
-        <h3 class="lead__title">President, Girls Who Code College Loop</h3>
-        <ul class="ticks">
-          <li>Hosted a Kahoot trivia night with 12 attendees and prizes like merch and gift cards.</li>
-          <li>Co-hosted a tech-themed Halloween escape room with ByteBods, another campus club.</li>
-          <li>Promoted events with Canva graphics, tabling, member emails, flyers and social media, and surveyed attendees on outreach.</li>
-          <li>Led the club to volunteer at Women in STEM Day and place 2nd in Homecoming top-hat decorating.</li>
-        </ul>
-      </article>
-      <article class="lead">
-        <p class="tag">Jun 2026 – Present</p>
-        <h3 class="lead__title">Leadership Peer Educator</h3>
-        <p class="lead__sub">LE 100: Exploring the Concept of Leadership</p>
-        <p>Created and presented a Canva slideshow on the leadership autobiography assignment, and help students in class and during peer educator hours.</p>
-      </article>
-      <article class="lead">
-        <p class="tag">Aug 2024 – Jun 2025</p>
-        <h3 class="lead__title">Secretary, International Club</h3>
-        <p>Took minutes at every meeting, attended all meetings and events, and helped officers decide on event plans.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="section section--tint" id="about">
-  <div class="container about">
-    <div>
-      <div class="about__top">
-        <figure class="about__photo"><img src="assets/photos/ojashwi-headshot.jpg" alt="Portrait of Ojashwi Shrestha" width="600" height="600" loading="lazy"></figure>
-        <header class="section__head">
-          <span class="section__num">05</span>
-          <h2 class="section__title">About</h2>
-        </header>
-      </div>
-      <p class="about__lede">I'm a Computer Information Sciences student at Washburn University in Topeka, Kansas, graduating in May 2028. I like work where technology meets people: building tools, explaining them clearly, and getting them in front of an audience.</p>
-      <p>Outside class I work in Washburn Law Admissions, tutor through TRIO Student Support Services, and help the Sunflower Music Festival as a student assistant and photographer. I speak English and Nepali fluently and Hindi at an intermediate level.</p>
-    </div>
-    <div class="about__side">
-      <div class="skillset">
-        <h3 class="skillset__h">Programming</h3>
-        <p class="chips"><span>Java</span><span>Python</span><span>C++</span><span>HTML/CSS</span><span>JavaScript</span><span>Bash</span></p>
-      </div>
-      <div class="skillset">
-        <h3 class="skillset__h">Tools & systems</h3>
-        <p class="chips"><span>Git/GitHub</span><span>VS Code</span><span>PowerShell</span><span>Linux</span><span>Windows</span></p>
-      </div>
-      <div class="skillset">
-        <h3 class="skillset__h">Design & productivity</h3>
-        <p class="chips"><span>Figma</span><span>Canva</span><span>Adobe Creative Cloud</span><span>Microsoft Office</span><span>Google Workspace</span></p>
-      </div>
-      <div class="skillset">
-        <h3 class="skillset__h">Experience</h3>
-        <ul class="timeline">
-          <li><b>Washburn Law Admissions</b> Student Office Assistant · Aug 2026 – Present</li>
-          <li><b>TRIO Student Support Services</b> Peer Tutor · Sep 2026 – Present</li>
-          <li><b>Sunflower Music Festival</b> Student Assistant / Photographer · Feb 2025 – Present</li>
-          <li><b>Washburn Student Media</b> Sports Managing Editor & Associate Marketing Manager · Oct 2024 – Aug 2026</li>
-        </ul>
-      </div>
-    </div>
+    <p class="section__intro">At the Washburn Review I started as a content creator and became Sports Managing Editor, writing features, sports and campus news and shooting photo galleries.</p>
+    <ul class="articles">
+      <li><a class="article" href="https://washburnreview.org/58080/features/ncaa-transfer-portal-transforms-recruitment-at-washburn/" target="_blank" rel="noopener"><span class="article__cat">Sports · Apr 29, 2026</span><span class="article__title">NCAA transfer portal transforms recruitment at Washburn</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/57207/features/matthew-nyquists-journey-from-usc-to-inspiring-students/" target="_blank" rel="noopener"><span class="article__cat">Profile · Mar 11, 2026</span><span class="article__title">Matthew Nyquist's journey from USC to inspiring students</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/55294/event/networking-and-opportunities-abound-at-washburn-career-internship-expo/" target="_blank" rel="noopener"><span class="article__cat">Campus events · Sep 17, 2025</span><span class="article__title">Networking and opportunities abound at Washburn Career & Internship Expo</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/54978/features/sunflower-music-festival-voices-from-the-stage-and-behind-the-scenes/" target="_blank" rel="noopener"><span class="article__cat">Features</span><span class="article__title">Sunflower Music Festival: voices from the stage and behind the scenes</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/52979/sports/gallery-mens-basketball-cruises-past-unk-97-64/" target="_blank" rel="noopener"><span class="article__cat">Photo gallery · Feb 5, 2025</span><span class="article__title">Gallery: Men's basketball cruises past UNK, 97-64</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+    </ul>
+    <a class="btn btn--gold" href="https://washburnreview.org/staff_name/ojashwi-shrestha/" target="_blank" rel="noopener">All my stories on the Washburn Review</a>
   </div>
 </section>
 

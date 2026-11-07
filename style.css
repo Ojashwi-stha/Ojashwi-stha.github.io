@@ -281,3 +281,19 @@ ul{margin:0;padding:0;list-style:none}
 .about__top .section__head{margin-bottom:0}
 .about__top .about__photo{margin:0;flex:none;width:clamp(120px,14vw,170px)}
 @media (max-width:420px){.about__top{gap:var(--space-4)}.about__top .about__photo{width:108px;padding:7px}.about__photo::after{width:16px;height:16px;border-width:3px}}
+
+/* Hero portrait (replaces bubbles) */
+.hero__portrait{position:relative;justify-self:center;width:min(100%,400px);aspect-ratio:1;margin:0;padding:16px;border:3px dashed var(--gold);border-radius:50%}
+.hero__portrait img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:6px solid var(--white);box-shadow:0 24px 56px rgba(0,0,0,.35);display:block}
+.hero__portrait::after{content:"";position:absolute;right:9%;bottom:9%;width:34px;height:34px;border-radius:50%;background:var(--gold);border:5px solid var(--navy)}
+@media (max-width:900px){.hero__portrait{width:min(78vw,300px);order:-1;justify-self:start}}
+
+/* Writing on light background */
+.section--writing .section__intro{color:var(--navy-ink)}
+.section--writing .articles{border-top-color:var(--line)}
+.section--writing .article{border-bottom-color:var(--line);color:var(--navy-ink)}
+.section--writing .article:hover{background:var(--tint)}
+.section--writing .article__cat,.section--writing .article__arrow{color:var(--gold-ink)}
+.section--writing .btn--gold{background:var(--navy);color:var(--white)}
+.section--writing .btn--gold:hover{background:var(--navy-deep)}
+@media (max-width:900px){.hero__portrait{width:min(56vw,220px);padding:10px}.hero__portrait::after{width:24px;height:24px;border-width:4px}}
