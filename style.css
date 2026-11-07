@@ -297,3 +297,4 @@ ul{margin:0;padding:0;list-style:none}
 .section--writing .btn--gold{background:var(--navy);color:var(--white)}
 .section--writing .btn--gold:hover{background:var(--navy-deep)}
 @media (max-width:900px){.hero__portrait{width:min(56vw,220px);padding:10px}.hero__portrait::after{width:24px;height:24px;border-width:4px}}
+.section--writing.section--tint .article:hover{background:var(--white)}
