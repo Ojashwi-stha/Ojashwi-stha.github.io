@@ -77,9 +77,10 @@ ul{margin:0;padding:0;list-style:none}
 .bubble{position:absolute;border-radius:50%;overflow:hidden;border:5px solid var(--white);box-shadow:0 20px 50px rgba(0,0,0,.3);background:var(--white)}
 .bubble img{width:100%;height:100%;object-fit:cover}
 .bubble--1{width:56%;aspect-ratio:1;top:0;right:2%}
-.bubble--1 img{object-fit:contain;padding:14%;background:#fff}
+.bubble--1{background:#93E579}
+.bubble--1 img{object-fit:contain;padding:9% 16%}
 .bubble--2{width:44%;aspect-ratio:1;top:38%;left:0}
-.bubble--2 img{transform:scale(2.3);transform-origin:84% 32%}
+.bubble--2 img{object-fit:contain;padding:8%;background:#fff}
 .bubble--3{width:36%;aspect-ratio:1;bottom:0;right:14%}
 .bubble--3{background:#22385C}
 .bubble--3 img{object-fit:contain;padding:12% 18%}
@@ -216,7 +217,8 @@ ul{margin:0;padding:0;list-style:none}
   .nav__links{display:none}
   .hero{padding-top:var(--space-20)}
   .hero__path{width:90vw;opacity:.6}
-  .hero__bubbles{height:260px}
+  .hero__bubbles{height:340px}
+  .bubble--3{right:4%}
   .pg-grid{grid-template-columns:1fr}
   .kit{gap:var(--space-3);padding:var(--space-4) var(--space-4) var(--space-10)}
   .lead{padding:var(--space-6)}
@@ -225,3 +227,14 @@ ul{margin:0;padding:0;list-style:none}
 .logo{text-decoration:none}
 .logo__text{font-family:var(--font-display);font-weight:700;font-size:var(--text-lg);text-transform:uppercase;letter-spacing:.04em}
 @media (max-width:480px){.contact__email{font-size:var(--text-xl);overflow-wrap:normal;word-break:break-all}}
+
+.more-design{margin-top:clamp(var(--space-16),8vw,var(--space-24));padding-top:clamp(var(--space-12),6vw,var(--space-16));border-top:2px dashed var(--line)}
+.md-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-6);max-width:860px}
+.md-item{margin:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--white);transition:box-shadow .3s,transform .3s var(--ease)}
+.md-item:hover{box-shadow:var(--shadow);transform:translateY(-3px)}
+.md-img{aspect-ratio:1;display:grid;place-items:center;padding:var(--space-6);background:var(--tint)}
+.md-img--green{background:#93E579}
+.md-img img{max-height:100%;width:auto;object-fit:contain;border-radius:4px}
+.md-item figcaption{padding:var(--space-4) var(--space-5) var(--space-5);font-size:var(--text-sm);color:var(--muted)}
+.md-item figcaption b{display:block;color:var(--navy);font-size:var(--text-base);margin-bottom:var(--space-1)}
+@media (max-width:720px){.md-grid{grid-template-columns:1fr}}
