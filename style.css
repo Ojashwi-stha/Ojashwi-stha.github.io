@@ -298,3 +298,4 @@ ul{margin:0;padding:0;list-style:none}
 .section--writing .btn--gold:hover{background:var(--navy-deep)}
 @media (max-width:900px){.hero__portrait{width:min(56vw,220px);padding:10px}.hero__portrait::after{width:24px;height:24px;border-width:4px}}
 .section--writing.section--tint .article:hover{background:var(--white)}
+.gallery__credit{margin:calc(-1 * var(--space-2)) 0 var(--space-4);font-size:var(--text-xs);color:var(--muted);max-width:70ch}
