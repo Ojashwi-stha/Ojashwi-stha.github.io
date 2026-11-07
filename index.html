@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ojashwi Shrestha — CIS Student, Product, UX & Cybersecurity</title>
+<meta name="description" content="Portfolio of Ojashwi Shrestha, Computer Information Sciences student at Washburn University. PhishGuard, Student Media ad kit, journalism and leadership. Seeking Summer 2027 internships.">
+<meta property="og:title" content="Ojashwi Shrestha — Portfolio">
+<meta property="og:description" content="CIS student at Washburn University working across product, UX, marketing and cybersecurity.">
+<meta property="og:image" content="assets/home.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231E3A5F'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='15' fill='%23F2A900' text-anchor='middle'%3EOS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="logo" aria-label="Ojashwi Shrestha, back to top">
+      <span class="logo__text">Ojashwi Shrestha</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--gold btn--sm" href="#resume">Résumé</a>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <svg class="hero__path" viewBox="0 0 600 700" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M520 -10 C 380 120, 560 220, 420 330 S 300 520, 470 710" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3" stroke-dasharray="10 12" stroke-linecap="round"/>
+  </svg>
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="kicker">Computer Information Sciences · Washburn University</p>
+      <h1 class="hero__name"><span>Ojashwi</span> Shrestha</h1>
+      <p class="hero__lede">I build, write and design. My work so far spans a phishing-detection web app, an advertising kit for my campus newsroom, 30+ published stories, and a Girls Who Code chapter I lead.</p>
+      <div class="hero__cta">
+        <a class="btn btn--gold" href="#work">See my work</a>
+        <a class="btn btn--ghost" href="mailto:ojashwishrestha01@gmail.com">Email me</a>
+      </div>
+      <p class="hero__avail"><span class="dot" aria-hidden="true"></span>Seeking Summer 2027 internships in product, UX, business analysis or cybersecurity · available May 17 – Aug 12, 2027 · open to relocating</p>
+    </div>
+    <div class="hero__bubbles" aria-hidden="true">
+      <div class="bubble bubble--1"><img src="assets/home.jpg" alt=""></div>
+      <div class="bubble bubble--2"><img src="assets/adkit-p9.jpg" alt=""></div>
+      <div class="bubble bubble--3"><img src="assets/adkit-p1.jpg" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats" aria-label="Highlights">
+  <div class="container stats__grid">
+    <div class="stat"><span class="stat__num">30+</span><span class="stat__label">stories and photo galleries published</span></div>
+    <div class="stat"><span class="stat__num">3</span><span class="stat__label">ad clients signed through email outreach</span></div>
+    <div class="stat"><span class="stat__num">14<small>/16</small></span><span class="stat__label">ad kit pages designed</span></div>
+    <div class="stat"><span class="stat__num">2</span><span class="stat__label">club events hosted as Girls Who Code president</span></div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="section" id="work">
+  <div class="container">
+    <header class="section__head">
+      <span class="section__num">01</span>
+      <h2 class="section__title">Selected work</h2>
+    </header>
+
+    <!-- PhishGuard -->
+    <article class="case" aria-labelledby="pg-title">
+      <div class="case__meta">
+        <p class="tag">Cybersecurity · Web app · Apr – May 2026</p>
+        <h3 id="pg-title" class="case__title">PhishGuard</h3>
+        <p class="case__sub">A Flask web app that scans email files, gives each one a phishing risk score, and uses a small local language model to explain the result in plain English.</p>
+        <dl class="facts">
+          <div><dt>Role</dt><dd>Developer & Tester, team of 2 with Dylan Wendling</dd></div>
+          <div><dt>Course</dt><dd>Cybersecurity class project, Washburn University</dd></div>
+          <div><dt>Stack</dt><dd>Python, Flask, HTML/CSS, JavaScript</dd></div>
+        </dl>
+        <h4 class="case__h">What I built</h4>
+        <ul class="ticks">
+          <li>A detection rule that flags emails asking for passwords, one-time codes, card or bank details, or SSNs, added to all 3 model versions of the app.</li>
+          <li>Drag-and-drop email upload on the main scan page and the real-time analysis page, plus a wider analysis panel for readability.</li>
+          <li>Test scam emails (delivery, money-request and sensitive-info scenarios) to check how detection behaves.</li>
+          <li>The content for the FAQ and Common Breaches education pages.</li>
+        </ul>
+        <h4 class="case__h">What I'd improve next</h4>
+        <p class="muted">Test the rules on a labeled phishing dataset and report accuracy and false-positive rates, and match whole words so short terms like "otp" don't trigger on unrelated text.</p>
+        <div class="case__links">
+          <a class="btn btn--navy" href="https://github.com/Ojashwi-stha/PhishGuard" target="_blank" rel="noopener">View on GitHub</a>
+          <a class="link" href="https://github.com/dylanwendling/PhishGuard" target="_blank" rel="noopener">Original repo by Dylan Wendling</a>
+        </div>
+      </div>
+      <div class="case__media pg-grid">
+        <figure class="shot shot--wide"><img src="assets/home.jpg" alt="PhishGuard home page with the email upload area" loading="lazy" width="1400" height="948"><figcaption>Scan page with drag-and-drop upload</figcaption></figure>
+        <figure class="shot"><img src="assets/result.jpg" alt="PhishGuard scan result showing a risk score and triggered rules" loading="lazy" width="1340" height="713"><figcaption>Risk score and triggered rules</figcaption></figure>
+        <figure class="shot"><img src="assets/realtime.jpg" alt="PhishGuard split-screen real-time analysis view" loading="lazy" width="1340" height="713"><figcaption>Real-time analysis view</figcaption></figure>
+        <figure class="shot"><img src="assets/faq.jpg" alt="PhishGuard FAQ page" loading="lazy" width="520" height="500"><figcaption>FAQ page I wrote</figcaption></figure>
+        <figure class="shot"><img src="assets/common-breaches.jpg" alt="PhishGuard Common Breaches page" loading="lazy" width="620" height="418"><figcaption>Common Breaches page I wrote</figcaption></figure>
+      </div>
+    </article>
+
+    <!-- Ad kit -->
+    <article class="case case--flip" aria-labelledby="ak-title">
+      <div class="case__meta">
+        <p class="tag">Marketing · Visual design · 2025–26</p>
+        <h3 id="ak-title" class="case__title">Student Media advertising kit</h3>
+        <p class="case__sub">A 16-page kit that shows local and campus businesses how to advertise with Washburn Student Media across the website, email newsletter, Indigo magazine, campus newsstands and social media.</p>
+        <dl class="facts">
+          <div><dt>Role</dt><dd>Associate Marketing Manager</dd></div>
+          <div><dt>Tool</dt><dd>Canva</dd></div>
+        </dl>
+        <h4 class="case__h">What I did</h4>
+        <ul class="ticks">
+          <li>Designed 14 of the 16 pages, including the cover, channel pages, newsstand examples and bundle pricing.</li>
+          <li>Worked with the team to decide pricing changes and page layouts.</li>
+          <li>Sold ad placements to 3 clients through email outreach: Sunflower Music Festival, T.H. Peterson Photography and the Washburn Computer Science department.</li>
+        </ul>
+        <p class="credit">Team credit: the In-House Design and BodPod pages were designed by teammates, and audience statistics were gathered by other Student Media staff.</p>
+      </div>
+      <div class="case__media kit">
+        <figure class="page page--1"><img src="assets/adkit-p1.jpg" alt="Ad kit cover: Washburn University Student Media Advertising Kit, navy with a dashed path linking circular photos" loading="lazy" width="765" height="990"><figcaption>Cover</figcaption></figure>
+        <figure class="page page--2"><img src="assets/adkit-p5.jpg" alt="Ad kit page on the weekly email newsletter with ad sizes and pricing" loading="lazy" width="765" height="990"><figcaption>Email newsletter</figcaption></figure>
+        <figure class="page page--3"><img src="assets/adkit-p9.jpg" alt="Ad kit page with photos of medium and large campus newsstand ads" loading="lazy" width="765" height="990"><figcaption>Newsstand examples</figcaption></figure>
+        <figure class="page page--4"><img src="assets/adkit-p15.jpg" alt="Ad kit page with four discounted ad bundles and prices" loading="lazy" width="765" height="990"><figcaption>Bundle pricing</figcaption></figure>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- WRITING -->
+<section class="section section--navy" id="writing">
+  <div class="container">
+    <header class="section__head">
+      <span class="section__num">02</span>
+      <h2 class="section__title">Writing & reporting</h2>
+    </header>
+    <p class="section__intro">At the Washburn Review I started as a content creator and became Sports Managing Editor, writing features, sports and campus news and shooting photo galleries.</p>
+    <ul class="articles">
+      <li><a class="article" href="https://washburnreview.org/58080/features/ncaa-transfer-portal-transforms-recruitment-at-washburn/" target="_blank" rel="noopener"><span class="article__cat">Sports · Apr 29, 2026</span><span class="article__title">NCAA transfer portal transforms recruitment at Washburn</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/57207/features/matthew-nyquists-journey-from-usc-to-inspiring-students/" target="_blank" rel="noopener"><span class="article__cat">Profile · Mar 11, 2026</span><span class="article__title">Matthew Nyquist's journey from USC to inspiring students</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/55294/event/networking-and-opportunities-abound-at-washburn-career-internship-expo/" target="_blank" rel="noopener"><span class="article__cat">Campus events · Sep 17, 2025</span><span class="article__title">Networking and opportunities abound at Washburn Career & Internship Expo</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/54978/features/sunflower-music-festival-voices-from-the-stage-and-behind-the-scenes/" target="_blank" rel="noopener"><span class="article__cat">Features</span><span class="article__title">Sunflower Music Festival: voices from the stage and behind the scenes</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="article" href="https://washburnreview.org/52979/sports/gallery-mens-basketball-cruises-past-unk-97-64/" target="_blank" rel="noopener"><span class="article__cat">Photo gallery · Feb 5, 2025</span><span class="article__title">Gallery: Men's basketball cruises past UNK, 97-64</span><span class="article__arrow" aria-hidden="true">→</span></a></li>
+    </ul>
+    <a class="btn btn--gold" href="https://washburnreview.org/staff_name/ojashwi-shrestha/" target="_blank" rel="noopener">All my stories on the Washburn Review</a>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="section" id="leadership">
+  <div class="container">
+    <header class="section__head">
+      <span class="section__num">03</span>
+      <h2 class="section__title">Leadership</h2>
+    </header>
+    <div class="lead-grid">
+      <article class="lead lead--feature">
+        <p class="tag">May 2026 – Present</p>
+        <h3 class="lead__title">President, Girls Who Code College Loop</h3>
+        <ul class="ticks">
+          <li>Hosted a Kahoot trivia night with 12 attendees and prizes like merch and gift cards.</li>
+          <li>Co-hosted a tech-themed Halloween escape room with ByteBods, another campus club.</li>
+          <li>Promoted events with Canva graphics, tabling, member emails, flyers and social media, and surveyed attendees on outreach.</li>
+          <li>Led the club to volunteer at Women in STEM Day and place 2nd in Homecoming top-hat decorating.</li>
+        </ul>
+      </article>
+      <article class="lead">
+        <p class="tag">Jun 2026 – Present</p>
+        <h3 class="lead__title">Leadership Peer Educator</h3>
+        <p class="lead__sub">LE 100: Exploring the Concept of Leadership</p>
+        <p>Created and presented a Canva slideshow on the leadership autobiography assignment, and help students in class and during peer educator hours.</p>
+      </article>
+      <article class="lead">
+        <p class="tag">Aug 2024 – Jun 2025</p>
+        <h3 class="lead__title">Secretary, International Club</h3>
+        <p>Took minutes at every meeting, attended all meetings and events, and helped officers decide on event plans.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section section--tint" id="about">
+  <div class="container about">
+    <div>
+      <header class="section__head">
+        <span class="section__num">04</span>
+        <h2 class="section__title">About</h2>
+      </header>
+      <p class="about__lede">I'm a Computer Information Sciences student at Washburn University in Topeka, Kansas, graduating in May 2028. I like work where technology meets people: building tools, explaining them clearly, and getting them in front of an audience.</p>
+      <p>Outside class I work in Washburn Law Admissions, tutor through TRIO Student Support Services, and help the Sunflower Music Festival as a student assistant and photographer. I speak English and Nepali fluently and Hindi at an intermediate level.</p>
+    </div>
+    <div class="about__side">
+      <div class="skillset">
+        <h3 class="skillset__h">Programming</h3>
+        <p class="chips"><span>Java</span><span>Python</span><span>C++</span><span>HTML/CSS</span><span>JavaScript</span><span>Bash</span></p>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__h">Tools & systems</h3>
+        <p class="chips"><span>Git/GitHub</span><span>VS Code</span><span>PowerShell</span><span>Linux</span><span>Windows</span></p>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__h">Design & productivity</h3>
+        <p class="chips"><span>Figma</span><span>Canva</span><span>Adobe Creative Cloud</span><span>Microsoft Office</span><span>Google Workspace</span></p>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__h">Experience</h3>
+        <ul class="timeline">
+          <li><b>Washburn Law Admissions</b> Student Office Assistant · Aug 2026 – Present</li>
+          <li><b>TRIO Student Support Services</b> Peer Tutor · Sep 2026 – Present</li>
+          <li><b>Sunflower Music Festival</b> Student Assistant / Photographer · Feb 2025 – Present</li>
+          <li><b>Washburn Student Media</b> Sports Managing Editor & Associate Marketing Manager · Oct 2024 – Aug 2026</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME + CONTACT -->
+<section class="section section--navy contact" id="contact">
+  <svg class="contact__path" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true"><path d="M-10 150 C 200 40, 380 190, 600 100 S 1000 20, 1210 120" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="2.5" stroke-dasharray="9 11"/></svg>
+  <div class="container contact__inner">
+    <header class="section__head">
+      <span class="section__num">05</span>
+      <h2 class="section__title">Let's talk</h2>
+    </header>
+    <p class="contact__lede">I'm looking for a Summer 2027 internship and I'm happy to relocate. The fastest way to reach me is email.</p>
+    <a class="contact__email" href="mailto:ojashwishrestha01@gmail.com">ojashwishrestha01@gmail.com</a>
+    <ul class="contact__links">
+      <li><a href="http://www.linkedin.com/in/ojashwi-shrestha-8a37352a2" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/Ojashwi-stha" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://washburnreview.org/staff_name/ojashwi-shrestha/" target="_blank" rel="noopener">Washburn Review</a></li>
+    </ul>
+    <div class="resume" id="resume">
+      <h3 class="resume__h">Download my résumé</h3>
+      <div class="resume__btns">
+        <a class="btn btn--gold" href="assets/Ojashwi-Shrestha-Resume-Product.pdf" download>Product & marketing (PDF)</a>
+        <a class="btn btn--ghost" href="assets/Ojashwi-Shrestha-Resume-Cyber.pdf" download>Cybersecurity (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© 2026 Ojashwi Shrestha · Topeka, Kansas</p>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+  const nav=document.querySelector('.nav');
+  addEventListener('scroll',()=>nav.classList.toggle('nav--scrolled',scrollY>40),{passive:true});
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.case,.lead,.article,.stat').forEach(el=>{el.classList.add('reveal');io.observe(el)});
+</script>
+</body>
+</html>
