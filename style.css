@@ -269,3 +269,8 @@ ul{margin:0;padding:0;list-style:none}
 @media (prefers-reduced-motion:reduce){.post{transition:none}.post:hover{transform:none}}
 @media (min-width:900px){.posts{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:480px){.posts{gap:var(--space-3)}.post__body{padding:var(--space-2) var(--space-3) var(--space-3)}}
+#photos .shots{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:var(--space-5);align-items:start}
+#photos .shot{margin:0}
+#photos .shot img,#photos .shot video{aspect-ratio:3/2;object-fit:cover}
+@media (min-width:900px){#photos .shots{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:560px) and (max-width:899px){#photos .shots{grid-template-columns:repeat(2,1fr)}}
